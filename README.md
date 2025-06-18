@@ -1,6 +1,6 @@
 # VirtualStaff
 
-
+```
 /virtual-staff/
 ├── assistants/
 │   ├── Cassia/
@@ -18,3 +18,4 @@
 │   └── XK/             ← Example Knowledge (renamed from EX)
 ├── governance/         ← GP documents, e.g., naming rules, onboarding
 └── utilities/          ← UT general tools (templates, checklists)
+```
