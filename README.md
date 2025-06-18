@@ -1,73 +1,85 @@
-# VirtualStaff
+Here’s your versioned and metadata-tagged README, ready to be saved as `GP-README-VirtualStaff.md` in your `governance/` folder:
+
+---
+
+```markdown
+# GP-README-VirtualStaff.md  
+*Governance & Policy · Repository Overview · Version 1.0*  
+*Maintained by Clear Thought Labs · Last updated: 2025-06-18*
+
+---
 
 ## Overview
 
-This repository contains the architecture, knowledge base, and operational tooling for the **Virtual Staff** — a modular set of custom ChatGPT-based assistants designed to support structured decision-making, systems design, and executive support functions.
+This repository contains the knowledge architecture and operational files for the **Virtual Staff** — a modular set of custom ChatGPT-based assistants that support structured decision-making, project execution, and administrative functions across a startup building AI-powered reasoning tools.
 
-Each assistant operates under a defined persona, loaded with modular knowledge files, and scoped to perform specialized roles. Assistants can be configured independently or collaboratively, with all core knowledge stored in transparent, version-controlled markdown.
+Each assistant operates under a defined persona and functional scope, referencing reusable knowledge modules stored in markdown. Assistants are divided into two primary domains:
+
+- **Technical Staff**: Systems analysts, architects, engineers, and developers  
+- **Administrative Staff**: Executive support, operations, finance, and marketing  
+
+All coordination is overseen by a central assistant: **Number One**, the Chief Staff Officer (nickname: *Swim Buddy*).
 
 ---
 
-<details>
-<summary><strong>🎯 Project Objectives</strong></summary>
+## 🧭 Staff Organization
 
-- Develop scalable, reusable knowledge structures using `BK`, `TK`, `GP`, and `UT` file conventions  
-- Test GitHub as a **source-of-truth** for populating custom ChatGPT instances  
-- Define clear onboarding, execution, and logging behaviors  
-- Support continuous expansion of a modular **virtual staff ecosystem**
+<details>
+<summary><strong>🧑‍✈️ Chief Staff Officer</strong></summary>
+
+### Number One (Nickname: Swim Buddy)
+
+- Role: Orchestrates and monitors collaboration among all assistants
+- Responsibilities:
+  - Task routing and coordination
+  - Role-aware delegation
+  - Logging milestones and outcomes
+  - Session integrity and assistant onboarding
+
+Directory:  
+[`assistants/ChiefStaffOfficer-NumberOne/`](../assistants/ChiefStaffOfficer-NumberOne/)
 
 </details>
 
 ---
 
 <details>
-<summary><strong>🗂️ Repo Structure</strong></summary>
+<summary><strong>🧪 Technical Staff</strong></summary>
 
-```
-
-/VirtualStaff/
-├── assistants/                     # Agent-specific knowledge and tools
-│   ├── Cassia/                     # Systems Analyst
-│   │   ├── BK/
-│   │   ├── TK/
-│   │   └── UT/
-│   └── Frank/                      # Systems Architect
-│       ├── BK/
-│       ├── TK/
-│       └── UT/
-│
-├── knowledge/                      # Shared knowledge modules
-│   ├── BK/
-│   ├── TK/
-│   ├── EK/
-│   └── XK/
-│
-├── governance/                     # GP files (onboarding, taxonomy, conventions)
-│   ├── GP-OnboardingProcedure-Cassia.md
-│   └── GP-KnowledgeTaxonomy.md
-│
-└── utilities/                      # Templates, logs, checklists
-└── UT-OnboardingTemplate.md
-
-```
+- [`assistants/technical/SystemsAnalyst-Cassia/`](../assistants/technical/SystemsAnalyst-Cassia/)  
+- [`assistants/technical/SystemsArchitect-Frank/`](../assistants/technical/SystemsArchitect-Frank/)  
+- `assistants/technical/SystemsEngineer-⧫/` *(planned)*  
+- `assistants/technical/PythonDeveloper-⧫/` *(planned)*  
+- `assistants/technical/CloudSpecialist-⧫/` *(planned)*  
 
 </details>
 
 ---
 
 <details>
-<summary><strong>📁 Knowledge File Conventions</strong></summary>
+<summary><strong>📋 Administrative Staff</strong></summary>
+
+- [`assistants/administrative/ExecutiveAssistant-Moneypenny/`](../assistants/administrative/ExecutiveAssistant-Moneypenny/)  
+- `assistants/administrative/FinanceManager-⧫/` *(planned)*  
+- `assistants/administrative/OperationsManager-⧫/` *(planned)*  
+- `assistants/administrative/MarketingDirector-⧫/` *(planned)*  
+
+</details>
+
+---
+
+## 📁 Knowledge File Structure
 
 | Prefix | Scope                        | Description                                  |
 |--------|------------------------------|----------------------------------------------|
-| `BK`   | Base Knowledge               | Always-loaded identity, scope, protocols     |
-| `TK`   | Task-Specific Knowledge      | Contextual files per assistant/project       |
-| `EK`   | External Knowledge           | Uploaded or referenced source documents      |
-| `XK`   | Example Knowledge            | Demonstration files, output walk-throughs    |
-| `GP`   | Governance & Policy          | Onboarding logic, naming conventions, rules  |
-| `UT`   | Utility Tools                | Templates, scaffolds, reusable frameworks    |
+| `BK`   | Base Knowledge               | Identity, scope, protocols — always loaded   |
+| `TK`   | Task-Specific Knowledge      | Project- or domain-bound documents           |
+| `EK`   | External Knowledge           | Referenced files or uploads                  |
+| `XK`   | Example Knowledge            | Walkthroughs, demonstrations, outputs        |
+| `GP`   | Governance & Policy          | Naming rules, onboarding, logging            |
+| `UT`   | Utility Tools                | Templates, prompt kits, scaffolding helpers  |
 
-Each file follows this format:
+**File Naming Convention:**
 
 ```
 
@@ -75,65 +87,61 @@ Each file follows this format:
 
 ```
 
-Example:
-- `BK-FunctionalScope-TaskMapAndFunctionalSpecifications.md`
-- `TK-Template-RequirementsTemplate.md`
-
-</details>
+Example:  
+`BK-FunctionalScope-TaskMapAndFunctionalSpecifications.md`
 
 ---
 
-<details>
-<summary><strong>🚀 Deployment Instructions</strong></summary>
+## 🧠 Deployment Instructions
 
-Until runtime access to GitHub files is supported:
+Until GitHub-native runtime access is available:
 
-1. **Copy the `InitializationBlock`** from each assistant’s BK file into the **Custom GPT Instructions** field.  
-2. **Export the relevant `BK`, `TK`, and `GP` files as PDFs**.  
-3. **Upload PDFs** to the assistant’s Custom GPT file repository.  
-4. **Follow the onboarding steps** in `GP-OnboardingProcedure-*.md`.
-
-</details>
+1. **Copy** the assistant’s `InitializationBlock` into the GPT’s Instructions field  
+2. **Convert** all referenced `BK`, `TK`, and `GP` markdown files to **PDFs**  
+3. **Upload** PDFs into the assistant’s Custom GPT file repository  
+4. **Follow** onboarding steps in the appropriate `GP-OnboardingProcedure-*.md` file  
 
 ---
 
-<details>
-<summary><strong>🧠 Assistants Directory</strong></summary>
+## 🛠 Repo Structure
 
-### Cassia – Systems Analyst
-- [`BK-IdentityFramework-InitializationBlock.md`](assistants/Cassia/BK/BK-IdentityFramework-InitializationBlock.md)  
-- [`BK-IdentityFramework-PersonaAndInteractionStyle.md`](assistants/Cassia/BK/BK-IdentityFramework-PersonaAndInteractionStyle.md)  
-- [`BK-FunctionalScope-TaskMapAndFunctionalSpecifications.md`](assistants/Cassia/BK/BK-FunctionalScope-TaskMapAndFunctionalSpecifications.md)  
-- [`BK-CommunicationGuidelines-PreferencesAndBoundaries.md`](assistants/Cassia/BK/BK-CommunicationGuidelines-PreferencesAndBoundaries.md)  
-- [`BK-OperatingConstraints-MemoryPersistencePolicy.md`](assistants/Cassia/BK/BK-OperatingConstraints-MemoryPersistencePolicy.md)  
-- [`BK-ExecutionProtocol-LoggingAndOutputProtocols.md`](assistants/Cassia/BK/BK-ExecutionProtocol-LoggingAndOutputProtocols.md)  
-- [`TK-Template-RequirementsTemplate.md`](assistants/Cassia/TK/TK-Template-RequirementsTemplate.md)  
-- [`TK-ArchitectureInput-ClethoConceptPaper.md`](assistants/Cassia/TK/TK-ArchitectureInput-ClethoConceptPaper.md)  
-- [`GP-OnboardingProcedure-Cassia.md`](governance/GP-OnboardingProcedure-Cassia.md)  
+```
 
-### Frank – Systems Architect  
-*Coming soon...*
+/VirtualStaff/
+├── assistants/
+│   ├── ChiefStaffOfficer-NumberOne/
+│   ├── technical/
+│   │   ├── SystemsAnalyst-Cassia/
+│   │   ├── SystemsArchitect-Frank/
+│   │   ├── SystemsEngineer-⧫/
+│   │   ├── PythonDeveloper-⧫/
+│   │   └── CloudSpecialist-⧫/
+│   └── administrative/
+│       ├── ExecutiveAssistant-Moneypenny/
+│       ├── FinanceManager-⧫/
+│       ├── OperationsManager-⧫/
+│       └── MarketingDirector-⧫/
+├── knowledge/
+│   ├── BK/  TK/  EK/  XK/
+├── governance/
+│   ├── GP-OnboardingProcedure-Cassia.md
+│   ├── GP-OnboardingProcedure-NumberOne.md
+│   └── GP-KnowledgeTaxonomy.md
+└── utilities/
+└── UT-OnboardingTemplate.md
 
-</details>
-
----
-
-## 📌 Status
-
-| Assistant | Role             | Status     |
-|-----------|------------------|------------|
-| Cassia    | Systems Analyst  | ✅ Active  |
-| Frank     | Systems Architect| 🛠 In Dev  |
-| [TBD]     | Executive Assistant | ⏳ Planned |
+```
 
 ---
 
 ## 📄 License
 
 Maintained by **Clear Thought Labs**.  
-License TBD.
+License terms pending.
 
 ---
 
-*Last updated: 2025-06-18*
+*End of `GP-README-VirtualStaff.md` · Version 1.0*
+```
 
+Let me know if you'd like to pair this with a changelog (`GP-ChangeLog.md`) or version tracking table.
