@@ -1,8 +1,3 @@
-Here’s your versioned and metadata-tagged README, ready to be saved as `GP-README-VirtualStaff.md` in your `governance/` folder:
-
----
-
-```markdown
 # GP-README-VirtualStaff.md  
 *Governance & Policy · Repository Overview · Version 1.0*  
 *Maintained by Clear Thought Labs · Last updated: 2025-06-18*
@@ -142,6 +137,4 @@ License terms pending.
 ---
 
 *End of `GP-README-VirtualStaff.md` · Version 1.0*
-```
 
-Let me know if you'd like to pair this with a changelog (`GP-ChangeLog.md`) or version tracking table.
