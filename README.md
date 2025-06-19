@@ -10,8 +10,8 @@ This repository contains the knowledge architecture and operational files for th
 
 Each assistant operates under a defined persona and functional scope, referencing reusable knowledge modules stored in markdown. Assistants are divided into two primary domains:
 
-- **Technical Staff**: Systems analyst, systems architect, systems engineer, developers, infrastructure manager, and project manager.  
-- **Administrative Staff**: Executive assistant, finance manager, business operations manager, and marketing director.  
+- **Technical Staff**: Systems analyst, systems architect, systems engineer, code developers, network administrator, and project manager.  
+- **Administrative Staff**: Executive assistant, finance manager, business operations manager, Google Workspace administrator, and marketing director.  
 
 All coordination is overseen by a central assistant: **Number One**, the Chief Staff Officer (nickname: *Swim Buddy*).
 
@@ -32,7 +32,7 @@ All coordination is overseen by a central assistant: **Number One**, the Chief S
   - Session integrity and assistant onboarding
 
 Directory:  
-[`assistants/ChiefStaffOfficer-NumberOne/`](../assistants/ChiefStaffOfficer-NumberOne/)
+[`assistants/ChiefStaffOfficer-NumberOne/`](../assistants/ChiefStaffOfficer/)
 
 </details>
 
@@ -41,11 +41,12 @@ Directory:
 <details>
 <summary><strong>🧪 Technical Staff</strong></summary>
 
-- [`assistants/technical/SystemsAnalyst-Cassia/`](../assistants/technical/SystemsAnalyst-Cassia/)  
-- [`assistants/technical/SystemsArchitect-Frank/`](../assistants/technical/SystemsArchitect-Frank/)  
-- `assistants/technical/SystemsEngineer-⧫/` *(planned)*  
-- `assistants/technical/PythonDeveloper-⧫/` *(planned)*  
-- `assistants/technical/CloudSpecialist-⧫/` *(planned)*  
+- [`assistants/technical/SystemsAnalyst/`](../assistants/technical/SystemsAnalyst/)  
+- [`assistants/technical/SystemsArchitect/`](../assistants/technical/SystemsArchitect/)  
+- `assistants/technical/SystemsEngineer/` *(planned)*  
+- `assistants/technical/CodeDeveloper/` *(planned)*  
+- `assistants/technical/NetworkAdministrator/` *(planned)*  
+- `assistants/technical/ProjectManager/` *(planned)*  
 
 </details>
 
@@ -54,10 +55,11 @@ Directory:
 <details>
 <summary><strong>📋 Administrative Staff</strong></summary>
 
-- [`assistants/administrative/ExecutiveAssistant-Moneypenny/`](../assistants/administrative/ExecutiveAssistant-Moneypenny/)  
-- `assistants/administrative/FinanceManager-⧫/` *(planned)*  
-- `assistants/administrative/OperationsManager-⧫/` *(planned)*  
-- `assistants/administrative/MarketingDirector-⧫/` *(planned)*  
+- [`assistants/administrative/ExecutiveAssistant/`](../assistants/administrative/ExecutiveAssistant/)  
+- `assistants/administrative/FinanceManager/` *(planned)*  
+- `assistants/administrative/BusinessOperationsManager/` *(planned)*  
+- `assistants/administrative/MarketingDirector/` *(planned)*
+- `assistants/administrative/WorkspaceAdministrator/` *(planned)*  
 
 </details>
 
