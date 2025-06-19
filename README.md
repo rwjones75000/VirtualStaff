@@ -10,8 +10,8 @@ This repository contains the knowledge architecture and operational files for th
 
 Each assistant operates under a defined persona and functional scope, referencing reusable knowledge modules stored in markdown. Assistants are divided into two primary domains:
 
-- **Technical Staff**: Systems analysts, architects, engineers, and developers  
-- **Administrative Staff**: Executive support, operations, finance, and marketing  
+- **Technical Staff**: Systems analyst, systems architect, systems engineer, developers, infrastructure manager, and project manager.  
+- **Administrative Staff**: Executive assistant, finance manager, business operations manager, and marketing director.  
 
 All coordination is overseen by a central assistant: **Number One**, the Chief Staff Officer (nickname: *Swim Buddy*).
 
@@ -24,7 +24,7 @@ All coordination is overseen by a central assistant: **Number One**, the Chief S
 
 ### Number One (Nickname: Swim Buddy)
 
-- Role: Orchestrates and monitors collaboration among all assistants
+- Roles: (1) Orchestrates and monitors collaboration among all assistants; (2) serves as a thought partner for Rick   
 - Responsibilities:
   - Task routing and coordination
   - Role-aware delegation
