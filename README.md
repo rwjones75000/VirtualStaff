@@ -106,25 +106,33 @@ Until GitHub-native runtime access is available:
 
 /VirtualStaff/
 ├── assistants/
-│   ├── ChiefStaffOfficer-NumberOne/
+│   ├── ChiefStaffOfficer/
 │   ├── technical/
-│   │   ├── SystemsAnalyst-Cassia/
-│   │   ├── SystemsArchitect-Frank/
-│   │   ├── SystemsEngineer-⧫/
-│   │   ├── PythonDeveloper-⧫/
-│   │   └── CloudSpecialist-⧫/
+│   │   ├── SystemsAnalyst/
+│   │   ├── SystemsArchitect/
+│   │   ├── SystemsEngineer/
+│   │   ├── PythonDeveloper/
+│   │   |── NetworkAdministrator/
+|   |   └── ProjectManager/
+|   |   
 │   └── administrative/
-│       ├── ExecutiveAssistant-Moneypenny/
-│       ├── FinanceManager-⧫/
-│       ├── OperationsManager-⧫/
-│       └── MarketingDirector-⧫/
+│       ├── ExecutiveAssistant/
+│       ├── FinanceManager/
+│       ├── BusinessOperationsManager/
+│       ├── MarketingDirector/
+|       └── WorkspaceAdministrator/
+|
+|
 ├── knowledge/
 │   ├── BK/  TK/  EK/  XK/
+|
 ├── governance/
 │   ├── GP-OnboardingProcedure-Cassia.md
 │   ├── GP-OnboardingProcedure-NumberOne.md
 │   └── GP-KnowledgeTaxonomy.md
+|
 └── utilities/
+|
 └── UT-OnboardingTemplate.md
 
 ```
