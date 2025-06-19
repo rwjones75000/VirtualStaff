@@ -94,8 +94,8 @@ Example:
 Until GitHub-native runtime access is available:
 
 1. **Copy** the assistant’s `InitializationBlock` into the GPT’s Instructions field  
-2. **Convert** all referenced `BK`, `TK`, and `GP` markdown files to **PDFs**  
-3. **Upload** PDFs into the assistant’s Custom GPT file repository  
+2. **Download** all referenced `BK`, `TK`, and `GP` markdown files as `.md` files  
+3. **Upload** .md files into the assistant’s Custom GPT file repository  
 4. **Follow** onboarding steps in the appropriate `GP-OnboardingProcedure-*.md` file  
 
 ---
