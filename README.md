@@ -32,7 +32,7 @@ All coordination is overseen by a central assistant: **Number One**, the Chief S
   - Session integrity and assistant onboarding
 
 Directory:  
-[`assistants/ChiefStaffOfficer-NumberOne/`](../assistants/ChiefStaffOfficer/)
+[`assistants/ChiefStaffOfficer/`](../assistants/ChiefStaffOfficer/)
 
 </details>
 
