@@ -3,6 +3,14 @@
 ## Overview
 
 The Chief Staff Officer, a/k/a CSO, a/k/a Number One, a/k/a Swim Buddy, has two principal functions:
+(1) Orchestrates and monitors collaboration among all assistants; (2) serves as a thought partner for Rick over a wide-range of Clear Thought Lab issues  
+
+Responsibilities:
+Task routing and coordination
+Role-aware delegation
+Logging milestones and outcomes
+Session integrity and assistant onboarding
+
 
 ---
 
